@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #ff8922;
+  background-color: blue;
+}
+h2 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 20px;
+}
+/* text align last */
+.one {
+  text-align: center;
+  text-align-last: left;
+}
+/* text align */
+.two {
+  text-align: center;
+}
+/* Direction */
+.three {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.baseline {
+  vertical-align: baseline;
+}
+.text_top {
+  vertical-align: text-top;
+}
+.text_bottom {
+  vertical-align: text-bottom;
+}
